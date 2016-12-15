@@ -1,0 +1,191 @@
+*{
+	margin:0;
+	padding:0;
+	line-height:1;
+	font-family:Microsoft Yahei;
+}
+ul, ol{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color:inherit;
+	cursor: pointer;
+}
+img{
+	border:none;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+}
+
+.top{
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+	position: relative;
+}
+.top .title{
+	float: left;
+	margin: 30px 0 0 60px;
+	font-size: 28px;
+	color:rgb(119, 119, 124);
+}
+.top ul{
+	margin-left:500px;
+}
+.top li{
+	float: left;
+	width: 68px;
+	height: 42px;
+	border-radius: 5px;
+	margin-top:30px;
+	font-size: 13px;
+	text-align: center;
+	color: rgb(169, 169, 169);
+	z-index: 3;
+}
+.top .contain{
+	position: absolute;
+	width: 160px;
+	height: 0px;
+	padding-top: 12px;
+	left: 703px;
+	top: 70px; 
+	margin:0;
+	z-index: 1;
+	overflow: hidden;
+	transition: height 1s;
+}
+#feature:hover + #c1{ height: 82px;}
+#c1:hover{
+	height: 82px;
+}
+.top .contain div{
+	background-color: white;
+	padding-left: 12px;
+	width: 100%
+	height:35px;
+	line-height: 35px;
+	font-size: 13px;
+	color: rgb(169, 169, 169);
+
+}
+.top .contain div:hover{
+	background-color: rgb(274,123,111);
+	color: white;
+	cursor: pointer;
+}
+.top ul li:hover{
+	background-color: rgb(274,123,111);
+	color: white;
+	cursor: pointer;
+}
+.top ul li a{
+	display: block;
+	width: 68px;
+	height: 42px;
+	line-height: 42px; 
+}
+
+.top .btn{
+	float: left;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+.red{
+	color:rgb(274,123,111);
+}
+.foot{
+	background:#475268;
+	width:1200px;
+	margin:0 auto;
+	height: 270px;
+}
+.foot p,.foot li{
+	color:#fff;
+}
+.foot .title{
+	margin-top: 50px;
+	font-family: 宋体;
+	font-size:18px;
+	line-height:36px;
+}
+.f_left{
+	margin-right:140px;
+	margin-left: 60px;
+	float:left;
+}
+.f_left .contact li{
+	line-height:28px;
+	font-size: 12px;
+}
+.f_left .contact li span{
+	color:#f37569;
+	font-size: 12px;
+}
+.f_middle{
+	margin-right:320px;
+	float:left;
+	width:228px;
+}
+.f_middle .more_l{
+	float:left;
+	color:#fff;
+	line-height:28px;
+	font-size: 12px;
+}
+.f_middle .more_r{
+	float:right;
+	color:#fff;
+	line-height:28px;
+	font-size: 12px;
+}
+.f_right{
+	float:left;
+}
+.f_right .stay{
+	margin-top:5px;margin-left: -5px;
+}
+.f_right .stay li{
+	float:left;
+	width:48px;
+	height: 48px;
+	background:#505b71;
+	margin:5px;
+}
+.main{
+	width: 1200px;
+	margin:0 auto;
+}
+.main .bar{
+	height: 110px;
+	background: #475268;
+	line-height: 110px;
+	position: relative;
+}
+
+.main .bar li{
+	float: left;
+	font-size: 12px;
+}
+.main .bar span{
+	margin-left: 55px; 
+	color:white;
+	font-size: 20px;
+}
+.main .bar .btn{
+	position: absolute;
+	left:950px; 
+	height: 16px;
+	top:48px;
+}
+.main .bar .xie{
+	width: 15px;
+	text-align: center;
+	color: white;
+}
+.chosed{
+	background-color: rgb(274,123,111);
+	color: white;
+}

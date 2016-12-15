@@ -1,0 +1,273 @@
+.main{
+	width: 1200px;
+	margin: 0 auto;
+}
+.main .banner{
+	height: 470px;
+	
+}
+.main .welcome{
+	text-align: center;
+	height: 680px;
+}
+.main .welcome h1{
+	font-family: "宋体";
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+.main .welcome p{
+	color: rgb(169, 169, 169);
+}
+.main .welcome .content{
+	margin: 60px;
+	width: 1080px;
+	height: 340px;
+}
+.main .welcome .content div{
+	width: 340px;
+	height: 280px;
+	float: left;
+	text-align: center;
+	
+}
+.main .welcome .content div div{
+	height: 200px;
+	line-height: 290px;
+	font-family: "宋体";
+	font-size: 18px;
+	border-radius: 10px;background: rgb(244, 244, 244);
+	color:rgb(119, 119, 124);
+}
+.main .welcome .content div div:hover{
+	background: rgb(274,123,111);
+	color: white;
+}
+.main .welcome .content div span{
+	float: left;
+	width: 340px;
+	margin-top: 20px;
+	font-size: 13px;
+	color:rgb(119, 119, 124);
+	line-height: 1.5;
+	text-align: left;
+}
+.main .welcome .purchase{
+	width: 1080px;
+	margin: 0 auto;
+}
+.main .welcome .purchase .left{
+	width: 800px;
+	height: 86px;
+	background-color: rgb(71, 81, 104);
+	text-align: left;
+	float: left;
+	border-radius: 5px;
+
+}
+.main .welcome .purchase .left .p1{
+	font-family: "宋体";
+	font-size: 18px;
+	color: white;
+	margin: 0 0 14px 18px;
+	padding-top:20px; 
+}
+.main .welcome .purchase .left .p2{
+	font-size: 12px;
+	color: rgb(127, 151, 157);
+	margin-left: 18px;
+}
+.main .welcome .purchase .right{
+	float: right;
+	width: 250px;
+	height: 86px;
+	background-color:rgb(274,123,111);
+	color:white;
+	border-radius:5px; 
+	font-family: "宋体";
+	line-height: 86px;
+	font-size: 22px;
+	cursor: pointer;
+}
+.main .flat{
+	height: 520px;
+	background-color: rgb(244, 244, 244);
+}
+.main .flat .left{
+	height: 520px;
+	width: 600px;
+	line-height:520px;
+	float: left;
+}
+.main .flat .left img{
+	margin-top: 97px;
+	margin-left: 128px;
+}
+.main .flat .right{
+	float: left;
+	width: 500px;
+	padding-top:120px;
+}
+.main .flat .right h2{
+	font-family: "宋体";
+	color:rgb(81, 91, 112);
+	margin-bottom:30px;
+}
+.main .flat .right p{
+	color:rgb(119, 119, 124);
+	font-size: 12px;
+	line-height: 1.5;
+}
+.main .flat .right .btn{
+	width: 184px;
+	height: 60px;
+	color: white;
+	background-color: rgb(71, 81, 104);
+	line-height: 60px;
+	text-align: center;
+	font-size: 12px;
+	border-radius: 5px;
+	margin-top:40px; 
+	cursor: pointer;
+}
+.main .news{
+	height: 700px;
+}
+.main .news .up,.main .news .down{
+	width: 1080px;
+	margin:60px auto 0;
+
+}
+.main .news .up{
+	height: 290px;
+}
+.main .news .up .left{
+	width: 524px;
+	height: 254px;
+	background-color: rgb(244, 244, 244);
+	color: rgb(111,111,111);
+	border-radius:5px; 
+	float: left;
+}
+.main .news .up .left ul{
+	width: 100%;
+	height: 45px;
+}
+.main .news .up .left ul li{
+	float: left;
+	width: 174px;
+	height: 54px;
+	line-height: 54px;
+	text-align: center;
+	font-size: 12px;
+	cursor: pointer;
+}
+.main .news .up .left .second,.main .news .up .left .last{
+	background-color: rgb(111,111,111);
+	margin-left:1px;
+	color: white;
+}
+.main .news .up .left .second:hover,.main .news .up .left .last:hover{
+	background-color: rgb(244, 244, 244);
+	color: rgb(111,111,111);
+}
+.main .news .up .left .first{
+	border-radius: 5px 0 0 0;
+}
+.main .news .up .left .last{
+	border-radius: 0 5px 0 0; 
+}
+.main .news .up .left .bar{
+	float: left;
+	width: 100%;
+	height: 65px;
+}
+.main .news .up .left .bar .image{
+	float: left;
+	margin-left: 14px;
+	margin-top: 15px;
+}
+.main .news .up .left .bar .newsContent{
+	float: left;
+	height: 50px;
+	margin-left: 10px;
+	margin-top:15px;
+}
+.main .news .up .left .bar p{
+	margin-top: 6px;
+	font-size: 12px;
+}
+.main .news .up .right{
+	margin-left: 30px;
+	width: 525px;
+	float: left;
+}
+.main .news .up .right .people img{
+	margin-top: 20px;
+	margin-left: 15px;
+	float: left;
+}
+.main .news .up .right .people div{
+	margin-top: 45px;
+	margin-left: 15px;
+	width: 140px;
+	float: left;
+}
+.main .news .up .right .people .pName{
+	font-size: 14px;
+	color:rgb(111, 111, 111);
+
+}
+.main .news .up .right .people .pIntro{
+	font-size: 12px;
+	color: rgb(169, 169, 169);
+	margin-top: 5px;
+}
+.main .news .down{
+	width: 1080px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.main .news .down h1{
+	font-size: 20px;
+	font-family: "宋体";
+}
+.main .news .down div{
+	margin-top:21px;
+	height: 195px;
+	width: 3000px;
+	transform:translateX(0);
+	transition: transform 1s;
+}
+.main .news .down div img{
+	margin-right: 10px;
+}
+.main .news .down span{
+	float: left;margin-left: 460px;
+}
+.main .news .down .btnL img{
+	margin-top: 25px;
+	float: left;
+	margin-right:15px;
+	cursor:pointer;
+}
+.main .redbgd{
+	background-color: rgb(274,123,111);
+	height: 380px;
+}
+.main .redbgd i{
+	font-size: 22px;
+	text-align: center;
+	width: 930px;
+	margin: 0 auto;
+	color: white;
+	display: block;
+	padding-top: 160px;
+	line-height: 1.5;
+}	
+.main .tu{
+	height: 200px;
+	text-align: center;
+}
+.main .tu img{
+	margin-top: 60px;
+}

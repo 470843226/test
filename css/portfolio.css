@@ -1,0 +1,46 @@
+.main .content{
+	height: 900px;
+}
+.main .content .bar1{
+	width: 1020px;
+	height: 35px;
+	margin: 40px auto 0;
+
+}
+.main .content .bar1 li{
+	padding: 0 13px;
+	height: 40px;
+	color: #999;
+	background-color: rgb(226,224,225);
+	border-radius: 5px;
+	float: left;
+	margin-right: 10px;
+	line-height: 40px;
+	font-size: 12px;
+	cursor: pointer;
+}
+.main .content .bar1 li:hover{
+	background-color:rgb(255,123,111);
+	color: white;
+}
+.main .content div{
+	margin-left: 90px;
+	margin-top:60px;
+}
+.main .content div li{
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	width: 233px;
+	height: 205px;
+}
+.main .content div li img{
+	transition: width 1s;
+	width: 233px;
+	cursor: pointer;
+
+}
+.main .content div img:hover{
+	width: 260px;
+}
+	

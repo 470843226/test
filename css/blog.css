@@ -1,0 +1,203 @@
+.main .content{
+	width: 1080px;
+	margin:0 auto;
+	height: 2920px;
+}
+.main .content .left{
+	width: 750px;
+	float:left;
+}
+.main .content .left .blog{
+	width: 730px;
+	height: 520px;
+	margin-top: 34px;
+	border-bottom: 1px dotted rgb(211,211,211);
+}
+.main .content .left .blog .lLeft{
+	width: 100px;
+	float: left;
+	text-align: right;	
+}
+.main .content .left .blog .lLeft .day{
+	height: 54px;
+	width: 100px;
+	background-color: rgb(274,123,111);
+	text-align: center;
+	line-height: 54px;
+	border-radius: 4px 4px 0 0;
+	color: white;
+	font-size: 26px;
+	font-family: 黑体;
+}
+.main .content .left .blog .lLeft .month{
+	background-color: rgb(246,245,240);
+	color: #999;
+	width: 100px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	border-radius: 0 0 4px 4px;
+	font-size: 14px;
+}
+.main .content .left .blog .lLeft .u2{
+	margin-top: 18px;
+}
+.main .content .left .blog .lLeft .u2 .l1{
+	width: 100px;
+	height: 42px;
+	border-radius: 4px 4px 0 0;
+	background-color: rgb(239,238,233);
+
+
+}
+.main .content .left .blog .lLeft .u2 .num{
+	width: 100px;
+	height: 35px;
+	border-radius: 0 0 4px 4px;
+	background-color: rgb(246,245,240);
+	text-align: center;
+	line-height: 35px;
+	font-size: 12px;
+	color: #999;
+}	
+.main .content .left .blog .lLeft p{
+	margin-top: 125px;
+	color:#999;
+}
+.main .content .left .blog .lLeft .u3{
+	margin-top: 30px;
+	font-size: 12px;
+	color:rgb(119, 119, 124);
+	line-height: 1.5;
+}
+.main .content .left .blog .lLeft .u4{
+	font-size: 12px;
+	margin-top: 20px;
+}
+.main .content .left .blog .lLeft .u4 li{
+	margin-bottom:10px;
+}
+.main .content .left .blog .lRight{
+	width: 600px;
+	height: 100%;
+	float: left;
+	margin-left: 26px;
+}
+.main .content .left .blog .lRight .title{
+	line-height: 1.5;
+	font-size: 22px;
+	font-family: 宋体;
+	margin-top: 18px;
+}
+.main .content .left .blog .lRight .con1{
+	font-size: 12px;
+	line-height: 1.5;
+	color: #999;
+}
+.main .content .left .blog .lRight span{
+	display: block;
+	width: 125px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 12px;
+	background-color:rgb(255,108,96);
+	border-radius: 4px;
+	color: white; 
+	margin-top: 10px;
+	cursor: pointer;
+}
+.main .content .left .flip{
+	width:224px;
+	margin:80px auto 0;
+}
+.main .content .left .flip li{
+	width: 28px;
+	height: 28px;
+	border:2px solid rgb(240,240,240);
+	font-size: 12px;
+	float: left;
+	text-align: center;
+	line-height: 28px;
+	cursor: pointer;
+}
+.main .content .left .flip .lBtn,.main .content .left .flip .rBtn{
+	border-radius: 4px 0 0 4px;
+}
+.main .content .right{
+	width: 270px;
+	float: left;
+	margin-top: 34px;
+}
+.main .content .right input{
+	width: 270px;
+	border:1px solid rgb(226,226,224);
+	height: 34px;
+	line-height: 34px;
+}
+.main .content .right h3{
+	font-family: 宋体;
+	color: rgb(68,78,103);
+	margin-top: 30px;
+}
+.main .content .right .u1{
+	margin-top: 10px;
+	color: rgb(68,78,103);
+
+}
+.main .content .right .u1 li{
+	height: 40px;
+	border-bottom: 1px solid rgb(239,239,239);
+	padding-left: 18px;
+	font-size: 12px;
+	color: rgb(68,78,103);
+	line-height: 40px;
+}
+.main .content .right .u2{
+	margin-top: 15px;
+	color: rgb(68,78,103);
+
+}
+.main .content .right .u2 li{
+	width: 100%;
+	height: 100px;
+}
+.main .content .right .u2 li div{
+	float: left;
+}
+.main .content .right .u2 li p{
+	float: left;
+	width: 165px;
+	margin-left: 10px;
+	line-height: 1.5;
+}
+.main .content .right .u2 li .date{
+	font-size: 14px;
+}
+.main .content .right .u2 li .con1{
+	font-size: 12px;
+}
+.main .content .right .u3{
+	color: rgb(68,78,103);
+	margin-top: 10px;
+	height: 160px;
+
+}
+.main .content .right .u3 li{
+	float: left;
+	margin-right: 10px;
+	border: 1px solid rgb(243,243,243);
+	border-radius: 4px;
+	padding: 14px 12px;
+	font-size: 12px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.main .content .right .u3 li:hover{
+	background-color:rgb(255,123,111);
+	color: white;	
+}
+
+
+
+

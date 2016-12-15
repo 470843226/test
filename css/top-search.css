@@ -1,0 +1,69 @@
+.main .content{
+	height: 850px;	
+}
+.main .content .blank{
+	height: 400px;
+}
+.main .content .con1{
+	height: 420px;
+}
+.main .content .con1 .left{
+	width: 435px;
+	float: left;
+	margin-left:55px;
+}
+.main .content .con1 h3{
+	font-family: 宋体;
+}
+.main .content .con1 .left .u1{
+	margin-top: 18px;
+}
+.main .content .con1 .left ul li{
+	font-size: 12px;
+	line-height: 1.6;
+	color:#999;
+}
+.main .content .con1 .left .u2{
+	margin-top: 63px;
+}
+.main .content .con1 .right{
+	width: 590px;
+	height: 400px;
+	float: left;
+}
+.main .content .con1 .right ul{
+	width: 100%;
+	margin-top:18px;
+}
+.main .content .con1 .right ul p{
+	font-size: 12px;
+	font-weight: bold;
+	color:rgb(119, 119, 124);
+}
+.main .content .con1 .right ul input{
+	width: 100%;
+	margin-top: 8px;
+	height: 30px;
+	border: 1px solid #999;
+	border-radius: 4px;
+	margin-bottom: 16px;
+}
+.main .content .con1 .right ul textarea{
+	width: 100%;
+	margin-top: 8px;
+	height: 102px;
+	border-radius: 4px;
+}
+.main .content .con1 .right ul .btn{
+	display: block;
+	width: 68px;
+	height: 32px;
+	color: white;
+	background-color: rgb(255,108,96);
+	margin-top: 10px;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 32px;
+	font-size: 12px;
+	cursor: pointer;
+}
