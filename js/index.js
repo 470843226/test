@@ -22,12 +22,7 @@ var btnL = document.getElementById("btnL"),
 				{
 					name : "banner2",
 					anchorHref : "",
-					imageUrl : "./image/banner2.jpg"
-				},
-				{
-					name : "banner3",
-					anchorHref : "",
-					imageUrl : "./image/banner3.jpg"
+					imageUrl : "./image/banner2.jpeg"
 				}
 			];
 			//创建一个轮播图组件
@@ -44,3 +39,34 @@ var btnL = document.getElementById("btnL"),
 				indicator : 2, //非必需, 指针主题 (默认0:不启用, 1:方块, 2:圆点, 3:宽矩形)
 				duration : 4 //非必需, 轮播秒数间隔 (默认2)
 			});
+
+var first = document.getElementById("first"),
+	second = document.getElementById("second"),
+	last = document.getElementById("last"),
+	box1 = document.getElementById("box1"),
+	box2 = document.getElementById("box2"),
+	box3 = document.getElementById("box3");
+	first.onclick = function(){
+		box1.className="box current";
+		box2.className="box";
+		box3.className="box";
+		this.className="first pink";
+		second.className="second";
+		last.className="last";
+	}
+	second.onclick = function(){
+		box1.className="box";
+		box2.className="box current";
+		box3.className="box";
+		first.className="first";
+		this.className="second pink";
+		last.className="last";
+	}
+	last.onclick = function(){
+		box1.className="box";
+		box2.className="box";
+		box3.className="box current";
+		first.className="first";
+		second.className="second";
+		this.className="last pink";
+	}

@@ -1,5 +1,5 @@
 .main .content{
-	height: 900px;
+	height: 1000px;
 }
 .main .content .bar1{
 	width: 1020px;
@@ -23,24 +23,56 @@
 	background-color:rgb(255,123,111);
 	color: white;
 }
-.main .content div{
+.main .content .bar1 .orange{
+	background-color:rgb(255,123,111);
+	color: white;
+}
+.main .content .con{
 	margin-left: 90px;
 	margin-top:60px;
 }
-.main .content div li{
+.main .content .con li{
 	float: left;
 	margin-right: 25px;
 	margin-bottom: 25px;
-	width: 233px;
-	height: 205px;
+	width: 192px;
+	height: 278px;
+	position: relative;
+	overflow: hidden;
 }
-.main .content div li img{
-	transition: width 1s;
-	width: 233px;
+.main .content .con li img{
+	width: 192px;
+	height: 216px;
 	cursor: pointer;
+}
+.main .content .con li p{
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+.main .content .con li span{
+	text-align: center;	
+	font-size: 12px;
+	display: block;
+	color: grey;
+}
+.main .content .con li div{
+	background-color: rgba(0,0,0,0.9);
+	color: white;
+	position: absolute;
+	top: 160px;
+	width: 100%;
+	height: 56px;
+	text-align: center;
+	line-height: 56px;
+	opacity: 0;
+	transition: opacity 0.5s;
+	cursor: pointer;
+}
+.main .content .con li:hover div{
+	opacity: 0.8;
+}
 
-}
-.main .content div img:hover{
-	width: 260px;
-}
 	

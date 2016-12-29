@@ -25,6 +25,7 @@
 .main .content1 .right img{
 	margin-top: 35px;
 	margin-left: 25px;
+	width: 350px;
 }
 .main .content2{
 	padding-top: 100px;
@@ -49,6 +50,10 @@
 	height: 70px;
 	margin-top: 50px;
 }
+.main .content2 .ml120{
+	margin-left: 120px;
+}
+
 .main .content2 li i{
 	margin-left: 42px;
 	float: left;
@@ -74,7 +79,7 @@
 	color: #999999;
 }
 .main .content3{
-	height: 550px;
+	height: 750px;
 }
 .main .content3 .title{
 	font-size: 18px;
@@ -93,15 +98,40 @@
 }
 .main .content3 .cont{
 	width: 1004px;
-	height: 330px;
+	height: 530px;
 	background-color: rgb(244, 244, 244);
 	margin-left: 100px;
 	margin-top:30px;
 	border-radius: 5px;
 	font-size: 12px;
+	position: relative;
+}
+.main .content3 .cont .box1{
+	position: absolute;
+	background-color: rgb(244, 244, 244);
+	height: 530px;
+
+	
+}
+.main .content3 .cont .box1 .picture{
+	
+	text-align: center;	
+	position: relative;
+	top: 20px;
+}
+.main .content3 .cont .box1 .picture img{
+	width: 280px;
+	height: 180px;
+	margin-right:20px;
+}
+
+.main .content3 .cont .current{
+	z-index: 2;
 }
 .main .content3 .cont li{
 	cursor: pointer;
+	z-index: 3;
+	position: relative;
 }
 .main .content3 .cont .first{
 	float: left;
@@ -109,8 +139,8 @@
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
-	color: #999999;
-
+	background-color: rgb(111,111,111);
+	color: white;
 }
 .main .content3 .cont .same{
 	float: left;
@@ -122,7 +152,7 @@
 	line-height: 50px;
 	color: white;
 }
-.main .content3 .cont .same:hover{
+.main .content3 .cont .pink{
 	color: #999999;
 	background-color: rgb(244, 244, 244);
 
@@ -150,3 +180,6 @@
 
 }
 
+.clearfix{
+	clear:both;
+}

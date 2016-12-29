@@ -83,6 +83,10 @@
 	float: left;
 	margin-left: 26px;
 }
+.main .content .left .blog .lRight img{
+	width: 595px;
+	height: 280px;
+}
 .main .content .left .blog .lRight .title{
 	line-height: 1.5;
 	font-size: 22px;

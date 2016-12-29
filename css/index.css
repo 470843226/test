@@ -36,8 +36,10 @@
 	line-height: 290px;
 	font-family: "宋体";
 	font-size: 18px;
-	border-radius: 10px;background: rgb(244, 244, 244);
+	border-radius: 10px;
+	background: rgb(244, 244, 244);
 	color:rgb(119, 119, 124);
+	transition: background 2s;
 }
 .main .welcome .content div div:hover{
 	background: rgb(274,123,111);
@@ -67,7 +69,7 @@
 }
 .main .welcome .purchase .left .p1{
 	font-family: "宋体";
-	font-size: 18px;
+	font-size: 14px;
 	color: white;
 	margin: 0 0 14px 18px;
 	padding-top:20px; 
@@ -101,7 +103,9 @@
 }
 .main .flat .left img{
 	margin-top: 97px;
-	margin-left: 128px;
+	margin-left: 70px;
+	width: 500px;
+	
 }
 .main .flat .right{
 	float: left;
@@ -148,6 +152,7 @@
 	color: rgb(111,111,111);
 	border-radius:5px; 
 	float: left;
+	position: relative;
 }
 .main .news .up .left ul{
 	width: 100%;
@@ -162,12 +167,21 @@
 	font-size: 12px;
 	cursor: pointer;
 }
+.main .news .up .left .first{
+	color: white;
+	background-color: rgb(111,111,111);
+
+}
 .main .news .up .left .second,.main .news .up .left .last{
 	background-color: rgb(111,111,111);
 	margin-left:1px;
 	color: white;
 }
-.main .news .up .left .second:hover,.main .news .up .left .last:hover{
+.main .news .up .left .second:hover,.main .news .up .left .last:hover,.main .news .up .left .first:hover{
+	background-color: rgb(244, 244, 244);
+	color: rgb(111,111,111);
+}
+.main .news .up .left .pink{
 	background-color: rgb(244, 244, 244);
 	color: rgb(111,111,111);
 }
@@ -177,25 +191,40 @@
 .main .news .up .left .last{
 	border-radius: 0 5px 0 0; 
 }
+.main .news .up .left .box{
+	position: absolute;
+	top: 54px;
+	left: 0;
+}
 .main .news .up .left .bar{
 	float: left;
 	width: 100%;
 	height: 65px;
+	background-color: rgb(244, 244, 244);
 }
 .main .news .up .left .bar .image{
 	float: left;
 	margin-left: 14px;
 	margin-top: 15px;
 }
+.main .news .up .left .bar .image img{
+	width: 49px;
+	height: 50px;
+}
+
 .main .news .up .left .bar .newsContent{
 	float: left;
 	height: 50px;
 	margin-left: 10px;
 	margin-top:15px;
+	width: 430px;
+
 }
 .main .news .up .left .bar p{
 	margin-top: 6px;
 	font-size: 12px;
+	overflow: hidden;
+	text-overflow:ellipsis;
 }
 .main .news .up .right{
 	margin-left: 30px;
@@ -206,6 +235,7 @@
 	margin-top: 20px;
 	margin-left: 15px;
 	float: left;
+	width: 90px;
 }
 .main .news .up .right .people div{
 	margin-top: 45px;
@@ -241,6 +271,8 @@
 }
 .main .news .down div img{
 	margin-right: 10px;
+	width: 257px;
+	height: 193px;
 }
 .main .news .down span{
 	float: left;margin-left: 460px;
@@ -271,4 +303,7 @@
 }
 .main .tu img{
 	margin-top: 60px;
+}
+.current{
+	z-index: 2;
 }
