@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .foot{
 	background:#475268;
-	width:1200px;
+	width:100%;
 	margin:0 auto;
 	height: 270px;
 }
@@ -158,29 +158,31 @@ h1, h2, h3, h4, h5, h6{
 	width: 1200px;
 	margin:0 auto;
 }
-.main .bar{
+.bar{
+	width: 100%;
 	height: 110px;
 	background: #475268;
 	line-height: 110px;
 	position: relative;
 }
 
-.main .bar li{
+.bar li{
 	float: left;
 	font-size: 12px;
 }
-.main .bar span{
+.bar span{
 	margin-left: 55px; 
 	color:white;
 	font-size: 20px;
+	line-height: 110px;
 }
-.main .bar .btn{
+.bar .btn{
 	position: absolute;
 	left:950px; 
 	height: 16px;
 	top:48px;
 }
-.main .bar .xie{
+.bar .xie{
 	width: 15px;
 	text-align: center;
 	color: white;

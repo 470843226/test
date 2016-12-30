@@ -57,11 +57,11 @@ var first = document.getElementById("first"),
 		last.className="same";
 	}
 	last.onclick = function(){
-		box1.className="box1 current";
+		box1.className="box1";
 		box2.className="box1";
 		box3.className="box1";
 		box4.className="box1";
-		box5.className="box1";
+		box5.className="box1 current";
 		first.className="first";
 		second.className="same";
 		third.className="same";

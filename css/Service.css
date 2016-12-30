@@ -116,8 +116,9 @@
 .main .content3 .cont .box1 .picture{
 	
 	text-align: center;	
-	position: relative;
-	top: 20px;
+	position: absolute;
+	bottom: 20px;
+	left: 50px;
 }
 .main .content3 .cont .box1 .picture img{
 	width: 280px;
@@ -166,16 +167,17 @@
 	margin:14px; 
 }
 .main .content3 .cont .firstP{
-	line-height: 1.5;
-	padding-top: 66px;
+	line-height: 1.8;
 	color: #999;
 	margin-left: 10px;
+	padding: 66px 20px 0 0; 
 }
 .main .content3 .cont .secondP{
-	line-height: 1.5;
+	line-height: 1.8;
 	margin-top: 16px;	
 	color: #999;
 	margin-left: 10px;
+	padding: 0 20px;
 
 
 }
