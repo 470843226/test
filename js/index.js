@@ -16,12 +16,12 @@ var btnL = document.getElementById("btnL"),
 			var data = [
 				{
 					name : "banner1",
-					anchorHref : "",
+					anchorHref : "ps4.html",
 					imageUrl : "./image/banner.png"
 				},
 				{
 					name : "banner2",
-					anchorHref : "",
+					anchorHref : "xbox.html",
 					imageUrl : "./image/banner2.jpeg"
 				}
 			];
